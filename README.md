@@ -66,6 +66,9 @@ Share to classroom:
 ```
 window.open(`https://classroom.google.com/share?url=${location}`,%20%22classroom%22,%20%22width=300,height=300%22)
 ```
+> [!CAUTION]
+> INGOT is patched on Chrome Version 106, check your version at [chrome://version](chrome://version)
+> 
 [INGOT](https://github.com/3kh0/ext-remover?tab=readme-ov-file#ingot):
 ```
 (function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Ingot/ingot.min.js';document.body.appendChild(a);}())
